@@ -1,0 +1,19 @@
+.contacts {
+    font-style: normal;
+    float: right;
+}
+
+.contacts__link, .contacts__graph {
+    color: #fff;
+}
+
+.contacts__link {
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;   
+}
+
+.contacts__graph {
+    width: max-content;
+    margin-left: auto;
+}
