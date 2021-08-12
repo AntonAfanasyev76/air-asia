@@ -1,7 +1,10 @@
 .header {
-    padding: 25px 0;
+    height: 120px;
+    position: relative;
+    top: 28px;
+    left: 390px;
+    margin-bottom: 150px;
+
+    
 }
 
-.header__logo {
-    margin-right: 79px;
-}

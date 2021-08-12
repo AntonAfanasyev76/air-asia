@@ -1,21 +1,24 @@
 .menu {
-    
-    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 164px;
+    /* display: inline-block;
     position: relative;
-    font-size: 14px;
+     */
     /* line-height: 19.07px; */
-    top: -8px;
-    left: -5px;
+}
+
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
 }
 
 .menu__link {
     color: #fff;
+    font-size: 14px;
     text-decoration: none;
-}
-
-.menu__item {
-    display: inline-block;
-    margin-right: 51px;
 }
 
 .menu__item:last-child {
