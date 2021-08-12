@@ -1,11 +1,11 @@
 .preview {
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 500px;
 }
 
 .preview__conteiner {
     position:absolute;
-    /* display: inline-block; */
+    display: inline-block; 
     width: 511;
     height: 333px;
     margin-left: 390px;
