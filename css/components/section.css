@@ -28,7 +28,7 @@ margin-right: 12px;
     display: inline-block;
     width: 362;
     min-height: 449px;
-    margin-right: 27px;
+    margin-right: 23px;
 }
 
 .tours__item:last-child {
@@ -62,6 +62,9 @@ margin-right: 12px;
     color: #666666;
     font-size: 16px;
     font-weight: normal;
+    position: relative;
+    left: 4px;
+    top: -11px;
     margin-bottom: 23px;
 }
 
@@ -70,9 +73,18 @@ margin-right: 12px;
     margin-right: 10px;
 }
 
+.tours__icons-time img {
+    width: 26px;
+    height: 26px;
+
+}
+
 .tours__icons-day {
     display: inline-block;
     margin-right: 28px;
+    position: relative;
+    left: 9px;
+    top: -6px;
 }
 
 .tours__icons-food {
@@ -80,17 +92,28 @@ margin-right: 12px;
     margin-right: 9px;
 }
 
+.tours__icons-food img {
+    width: 36px;
+    height: 26px;
+}
+
 .tours__icons-brealfast {
     display: inline-block;
+    position: relative;
+    left: 3px;
+    top: -6px;
 }
 
 .tours__description {
     color: #303030;
-    width: 362px;
+    width: 324px;
     font-size: 14px;
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 25px;
+    position: relative;
+    left: 0px;
+    top: -29px;
 }
 
 .tours__button-wrapper {

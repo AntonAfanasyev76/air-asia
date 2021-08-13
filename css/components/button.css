@@ -1,14 +1,30 @@
 .button {
     background-color: #F5170E;
-    border-radius: 35px;
-    padding: 18px 40px;
     color: #fff;
+    border-radius: 35px;
+    padding: 18px 28px 18px 23px;
     font-size: 14px;
     font-weight:bold;
     text-transform:uppercase;
     text-decoration: none;
     position: relative;
-    top: 13px;
-    left: 1px;
+    top: -9px;
+    left: 7px
 }
 
+.button-white {
+    background-color: #fff;
+    color: #F5170E;
+    max-width: 135px;
+    height: 55px;
+    border-radius: 35px;
+    padding: 18px 28px 18px 23px; 
+    font-size: 14px;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-decoration: none;
+    position: relative;
+    top: -9px;
+    left: 7px;
+    border: 1px solid #F5170E;
+}
