@@ -9,6 +9,7 @@
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+    margin-right: 25px;
 }
 
 .news__img {
