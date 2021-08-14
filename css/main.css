@@ -11,6 +11,7 @@
 @import url(./components/section.css);
 @import url(./components/tours.css);
 @import url(./components/news.css);
+@import url(./components/paginator.css);
 
 
 body {

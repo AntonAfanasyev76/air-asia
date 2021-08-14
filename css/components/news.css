@@ -32,15 +32,34 @@
 .news__date {
     font-size: 14px;
     margin-bottom: 18px;
+    
+}
+
+.news__date-month {
+    position: relative;
+    top: -9px;
+    left: -1px;
+}
+
+.news__date-year {
+    position: relative;
+    top: -9px;
+    left: -1px;
 }
 
 .news__info {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 5px;
+    position: relative;
+    top: 4px;
+    left: 1px;
 
 }
 
 .news__text {
     font-size: 16px;
+    position: relative;
+    top: -7px;
+    left: 1px;
 }
