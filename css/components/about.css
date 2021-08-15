@@ -5,10 +5,12 @@
     width: 490px;
     height: 505px;
     background: url("../../img/gates.jpg") center center / cover no-repeat;
+    border-radius: 5px;
 }
 
 .about__desc {
     background: url("../../img/mountains.jpg") no-repeat;
+    border-radius: 5px;
     padding: 48px 82px;
     display: inline-block;
     vertical-align: top;

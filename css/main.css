@@ -13,6 +13,8 @@
 @import url(./components/news.css);
 @import url(./components/paginator.css);
 @import url(./components/about.css);
+@import url(./components/footer.css);
+@import url(./components/wrapper.css);
 
 
 body {

@@ -24,3 +24,32 @@
     left: -2px;
 }
 
+.footer__contacts {
+    position: relative;
+    font-style: normal;
+    color: #fff;
+    /* text-align: right; */
+    top: -60px;
+    right: -951px; 
+}
+
+.contacts__text {
+    font-size: 11px;
+    color: #9A9A9A;
+    position: absolute;
+    text-align: right;
+    margin-bottom: 7px;
+    top: -20px;
+    left: 27px;  
+}
+
+.contacts__link {
+    text-decoration: none;  
+    font-size: 26px;
+    position: relative;
+    
+    top: -3px;
+    left: 0px;
+
+}
+
