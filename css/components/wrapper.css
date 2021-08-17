@@ -1,5 +1,6 @@
 .wrapper {
     overflow: hidden;
+    
     /* min-width: 1920px; */
     
 }
@@ -8,5 +9,7 @@
     background: url(../../img/hero.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom no-repeat;
     background-color: #001821;
 }
+
+
 
 
