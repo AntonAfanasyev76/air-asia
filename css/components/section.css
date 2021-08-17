@@ -1,9 +1,6 @@
 .section {
     margin-bottom: 127px;
     position: relative;
-    width: 1200px;
-    height: 549px;
-    left: 390px;
 }
 
 .section__title {
@@ -15,3 +12,6 @@ margin-right: 12px;
 
 }
 
+.section_about {
+    margin-bottom: 50px;
+}

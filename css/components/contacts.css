@@ -1,5 +1,6 @@
 .contacts {
     display:inline-block;
+    position: absolute;
     font-style: normal;
     color: #fff;
     text-align: right;

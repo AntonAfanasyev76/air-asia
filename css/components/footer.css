@@ -1,15 +1,12 @@
 .footer {
     height: 100px;
     position: relative;
-    top: 29px;
-    left: 390px;
 }
 
 .socials {
     display: inline-block;
     position: relative;
-    top: -38px;
-    right: -100px;
+    margin-left: 100px;
 }
 
 .socials__link {
@@ -31,12 +28,12 @@
 }
 
 .footer__contacts {
-    position: relative;
+    position: absolute;
     font-style: normal;
     color: #fff;
     /* text-align: right; */
-    top: -60px;
-    right: -951px; 
+    top: 0;
+    right: 0; 
 }
 
 .contacts__text {
