@@ -1,5 +1,5 @@
 .contacts {
-    position: absolute;
+    display:inline-block;
     font-style: normal;
     color: #fff;
     text-align: right;
@@ -10,46 +10,11 @@
 .contacts__phone {
     text-decoration: none;  
     font-size: 26px;
-    position: relative;
     margin-bottom: 4px;
-    top: -3px;
-    left: 0px;
 }
 
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
-    position: relative;
-    top: -10px;
-    left: -2px;
-}
-
-.footer__contacts {
-    position: relative;
-    font-style: normal;
-    color: #fff;
-    /* text-align: right; */
-    top: -60px;
-    right: -951px; 
-}
-
-.contacts__text {
-    font-size: 11px;
-    color: #9A9A9A;
-    position: absolute;
-    text-align: right;
-    margin-bottom: 7px;
-    top: -20px;
-    left: 27px;  
-}
-
-.contacts__link {
-    text-decoration: none;  
-    font-size: 26px;
-    position: relative;
-    
-    top: -3px;
-    left: 0px;
-
 }
 

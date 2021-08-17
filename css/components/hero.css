@@ -1,3 +1,9 @@
+.hero {
+    margin: 0 auto;
+    height: 100%;
+}
+
+
 .hero__text-section {
     position: relative;
     width: 511px;

@@ -1,10 +1,6 @@
 .menu {
-    position: absolute;
-    top: 8px;
-    left: 164px;
-    /* display: inline-block;
-    position: relative;
-     */
+    display: inline-block;
+    
     /* line-height: 19.07px; */
 }
 
@@ -22,5 +18,5 @@
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+    margin-right: 522;
 }
