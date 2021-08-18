@@ -10,8 +10,14 @@
 .paginator__display {
     margin-right: 36px;
     position: relative;
+    top: -6px;
+    left: 16px;
+}
+
+.paginator__list {
+    position: relative;
     top: -5px;
-    left: -12px;
+    left: 0px;
 }
 
 .paginator__item {
