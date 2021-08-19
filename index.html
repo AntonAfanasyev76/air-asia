@@ -11,34 +11,39 @@
 
 <body>
     <div class="wrapper main-page-wrapper">
-        
-        <header class="header">
-            <div class="container">
-                <a href="/" class="logo">
-                    <img src="./img/logo.png" alt="Логотип">
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    <div class="contacts__dropdown-title">График работы</div>
-                </address>
-            </div>
-        </header>
 
         <section class="hero">
-            <div class="container">
-                <div class="hero__text-section">
-                    <h1 class="hero__title">Авторские туры по Азии</h1>
-                    <h4 class="hero__subtitle">Открой для себя Азию</h4>
-                    <a href="#" class="button button--hero button--active">ПОДРОБНЕЕ</a>
+            <div class="container hero__container">
+                <header class="header">
+                    <div class="header__col">
+                        <a href="/" class="logo">
+                            <img src="./img/logo.png" alt="Логотип">
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__col header__col--align--right">
+                        <address class="contacts">
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="contacts__dropdown-title">График работы</div>
+                        </address>
+                    </div>
+                </header>
+                <div class="hero__content">
+                    <div class="hero__text-section">
+                        <h1 class="hero__title">Авторские туры по Азии</h1>
+                        <h4 class="hero__subtitle">Открой для себя Азию</h4>
+                        <a href="#" class="button button--hero button--active">ПОДРОБНЕЕ</a>
+                    </div>
                 </div>
             </div>
+
+
         </section>
 
 
@@ -49,7 +54,7 @@
                     <img src="./img/flame.png" alt="Иконка горящего огня" class="tours__flame-icon">
                 </div>
                 <ul class="tours__list">
-                    <li class="tours__item">
+                    <li class="tours__item tour">
                         <div class="tours__img">
                             <img src="./img/river.jpg" alt="Таиланд река" class="tours__img-icon">
                         </div>

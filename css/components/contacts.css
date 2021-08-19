@@ -1,11 +1,6 @@
 .contacts {
-    display:inline-block;
-    position: absolute;
     font-style: normal;
     color: #fff;
-    text-align: right;
-    top: -3px;
-    right: 0px; 
 }
 
 .contacts__phone {
@@ -16,9 +11,6 @@
 
 .contacts__dropdown-title {
     font-size: 13px;
-    position: absolute;
-    top: 29px;
-    left: 92px;
     text-decoration: underline;
 }
 

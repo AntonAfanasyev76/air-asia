@@ -7,11 +7,16 @@
     height: 28px;
 }
 
+.tours__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .tours__item {
-    display: inline-block;
-    width: 362px;
     min-height: 449px;
-    margin-right: 22px;
+    width: calc(100% / 3 - 18px);
+    
+    overflow: hidden;
 }
 
 .tours__item:last-child {
