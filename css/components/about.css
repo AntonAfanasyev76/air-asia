@@ -1,6 +1,11 @@
+.about {
+    display: flex;
+}
+
+
 .about:before {
     content: "";
-    display: inline-block;
+    display: block;
     vertical-align: top;
     width: 490px;
     height: 505px;
@@ -12,9 +17,9 @@
     background: url("../../img/mountains.jpg") no-repeat;
     border-radius: 5px;
     padding: 48px 82px;
-    display: inline-block;
-    vertical-align: top;
-    width: 785px;
+    
+    
+    max-width: 785px;
     margin-left: -142px;
     margin-top: 130px;
 }

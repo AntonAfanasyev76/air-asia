@@ -13,9 +13,10 @@
 }
 
 .tours__item {
+    display: flex;
+    flex-direction: column;
     min-height: 449px;
     width: calc(100% / 3 - 18px);
-    
     overflow: hidden;
 }
 
@@ -31,6 +32,10 @@
 }
 
 .tours__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
     background-color: #fff;
     width: 362px;
     height: 305px;
@@ -47,12 +52,13 @@
 
 .tours__icons {
     
+    display:flex;
     color: #666666;
     font-size: 16px;
     font-weight: normal;
-    position: relative;
+    /* position: relative;
     left: 5px;
-    top: -3px;
+    top: -3px; */
     margin-bottom: 23px;
 }
 
@@ -106,5 +112,7 @@
 }
 
 .tours__button-wrapper {
+    display: flex;
+    margin-top: auto;
     /* text-align: center; */
 }

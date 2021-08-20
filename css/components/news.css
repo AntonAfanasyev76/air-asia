@@ -1,15 +1,17 @@
 .news {
     margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .news__item {
     width: 557px;
-    display: inline-block;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 2%;
+    flex: 1;
 }
 
 .news__img {

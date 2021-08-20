@@ -1,7 +1,8 @@
 .wrapper {
     overflow: hidden;
+    /* display: flex; */
     
-    /* min-width: 1920px; */
+    min-width: 1200px;
     
 }
 
