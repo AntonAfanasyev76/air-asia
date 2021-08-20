@@ -1,6 +1,6 @@
 .header {
-    padding-top: 28px;
-    margin-bottom: 30px;
+    padding-top: 25px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,6 +12,6 @@
 }
 
 .header__col--align--right {
-    justify-self: flex-end;
+    justify-content: flex-end;
 }
 
