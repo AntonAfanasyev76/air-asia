@@ -10,6 +10,15 @@
     justify-content: space-between;
 }
 
+.footer__logo{
+    margin-top:-67px;
+}
+
+.menu-footer{
+    margin-top:-59px;
+
+}
+
 .footer__col {
     display: flex;
     align-items: center;
@@ -23,8 +32,8 @@
 .socials {
     display: inline-block;
     position: relative;
-    margin-right: 74px;
-    top: -9px;
+    margin-right: 71px;
+    top: -39px;
 }
 
 .socials__link {
