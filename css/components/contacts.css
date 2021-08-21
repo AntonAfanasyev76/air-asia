@@ -4,22 +4,17 @@
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 
 }
 
 .contacts__phone {
     text-decoration: none;  
     font-size: 26px;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
 }
 
 .contacts__dropdown-title {
     font-size: 13px;
     text-decoration: underline;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
 } 
 

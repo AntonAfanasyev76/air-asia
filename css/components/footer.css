@@ -4,19 +4,9 @@
 
 .footer {
     height: 100px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.footer__logo{
-    margin-top:-67px;
-}
-
-.menu-footer{
-    margin-top:-59px;
-
 }
 
 .footer__col {
@@ -30,10 +20,13 @@
 }
 
 .socials {
-    display: inline-block;
-    position: relative;
-    margin-right: 71px;
-    top: -39px;
+    
+}
+
+.socials-list {
+    display: flex;
+    margin-right: 72px;
+    margin-bottom: 57px;
 }
 
 .socials__link {
@@ -45,8 +38,6 @@
 }
 
 .socials__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 10px;
 }
 
@@ -59,27 +50,19 @@
     flex-direction: column;
     font-style: normal;
     color: #fff;
-    /* text-align: right; */
-    /* top: 18px;
-    right: 0;  */
+    margin-bottom: 45px;
 }
 
 .contacts__text {
+    display:flex;
+    justify-content: flex-end;
     font-size: 11px;
     color: #9A9A9A;
-    /* position: absolute; */
-    text-align: right;
-    margin-bottom: 7px;
-    /* top: -20px;
-    left: 27px;   */
+    
 }
 
 .contacts__link {
     text-decoration: none;  
     font-size: 26px;
-    position: relative;
-    
-    
-
 }
 
