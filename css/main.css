@@ -59,6 +59,11 @@ button {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
 /* services page */
 
 .top-line {
@@ -112,3 +117,38 @@ button {
     font-size: 14px;
 }
 
+.page-content {
+    background: #fff;
+    color: #303030;
+    padding: 100px 0;
+}
+
+.service {
+    display: flex;
+}
+
+.services__item {
+    margin-bottom: 50px;
+}
+
+.service__img {
+    width: 30%;
+    margin-right: 7%;
+}
+
+.service__content {
+    flex: 1;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.service__desc {
+    font-size: 16 px;
+    line-height: 124%;
+    margin-bottom: 35px;
+}
