@@ -2,6 +2,15 @@
     margin-top: auto;
 }
 
+.footer-container__section {
+    height: 140px;
+    margin-top: 12px;
+}
+
+.footer-container__content {
+
+}
+
 .footer {
     height: 100px;
     display: flex;
