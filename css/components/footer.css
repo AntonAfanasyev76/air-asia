@@ -26,7 +26,7 @@
 .socials-list {
     display: flex;
     margin-right: 72px;
-    margin-bottom: 57px;
+    
 }
 
 .socials__link {
@@ -50,7 +50,7 @@
     flex-direction: column;
     font-style: normal;
     color: #fff;
-    margin-bottom: 45px;
+    
 }
 
 .contacts__text {
