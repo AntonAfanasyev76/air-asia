@@ -4,7 +4,7 @@
     flex-direction: column;
     min-height: 412px;
     padding-bottom: 19px;
-    background: url("../img/headline.png") center top no-repeat;
+    background: url("../..//img/headline.png") center top no-repeat;
 }
 
 .top-line__container {
@@ -93,7 +93,8 @@
 .inner-section {
     background: #F4F5F5;
     color: #1A1B1E;
-    padding: 95px 0;
+    padding: 76px 0 117px;
+    /* margin-bottom: 41px; */
 }
 
 .inner-section--bg--grey {
@@ -103,7 +104,7 @@
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 }
 
 .partners {
