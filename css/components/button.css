@@ -24,6 +24,11 @@
     left: 1px; */
 }
 
+.tours-button:hover {
+    background-color: #F5170E;
+    color: #fff;
+}
+
 .services__button:hover {
     background-color: #F5170E;
     color: #fff;

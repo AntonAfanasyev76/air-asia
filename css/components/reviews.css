@@ -34,8 +34,14 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    color: #2E77A4;
+    color: #1A1B1E;
     margin-bottom: 11px;
+    text-decoration: none;
+}
+
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
 }
 
 .review__user:after {

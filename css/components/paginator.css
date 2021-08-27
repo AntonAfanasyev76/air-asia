@@ -21,27 +21,6 @@
     vertical-align: middle;
 }
 
-.paginator__item--active .paginator__link {
-    background: #fff;
-    color: #F5170E;
-}
-
-.pager--theme--light {
-    color: #000;
-    margin-top: 61px;
-    margin-left: 37px;
-}
-
-.pager--theme--light .paginator__item--active .paginator__link {
-    color: #fff;
-    background: #F5170E;
-}
-
-.pager--theme--light .paginator__link:hover {
-    color: #fff;
-    background: #F5170E;
-}
-
 .paginator__link {
     display: block;
     width: 32px;
@@ -52,3 +31,21 @@
     font-weight: bold;
     line-height: 32px;
 }
+
+.paginator-main .paginator__link:hover {
+    color: #F5170E;
+    background: #fff;
+
+}
+
+.pager--theme--light {
+    color: #000;
+    margin-top: 61px;
+    margin-left: 37px;
+}
+
+.pager--theme--light .paginator__link:hover {
+    color: #fff;
+    background: #F5170E;
+}
+
