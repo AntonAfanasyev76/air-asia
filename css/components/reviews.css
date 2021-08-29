@@ -6,11 +6,11 @@
 
 }
 
-    .reviews {
-        column-count: 2;
-        column-gap: 30px;
-        margin-bottom: 70px;
-    }
+.reviews {
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
 
 .reviews__item {
     margin-bottom: 20px;
@@ -83,21 +83,27 @@
     font-weight: bold;
 }
 
-.separator::after {
-    background: url("../../img/couple.png") center center  no-repeat;
-    
-}
-
 .separator {
     background: url("../../img/separator_fon.png") center no-repeat;
     min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -12px;
 }
 
 .separator__content {
     max-width: 50%;
+}
+
+.separator__image-container {
+    position: relative;
+}
+
+.separator__image {
+    position: absolute;
+    top: -224px;
+    left: 620px;
 }
 
 .separator__title {
@@ -178,4 +184,8 @@
 
 .form__btn:last-child {
     margin-right: 0;
+}
+
+.inner-section--bg--grey {
+    padding: 65px 0 59px;
 }
