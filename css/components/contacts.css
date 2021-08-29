@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    position:relative;
 
 }
 
@@ -38,7 +39,8 @@
     border-radius: 4px;
     padding: 10px;
     width: 160px;
-    top: 14%;
+    top: 54px;
+    left: 33px;
     display:none;
 }
 

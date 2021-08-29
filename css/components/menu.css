@@ -3,6 +3,11 @@
     margin-left: 24px;
 }
 
+.menu-topline{
+    margin-top: 4px;
+    margin-left: 67px;
+}
+
 .menu__list {
     display: flex;
 }
