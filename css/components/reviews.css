@@ -128,6 +128,11 @@
     color: #1A1B1E;
 }
 
+.form__input:focus {
+    outline: 0;
+    border: 1px solid red;
+  }
+
 .form__input::placeholder {
     color: #666666;
 }
