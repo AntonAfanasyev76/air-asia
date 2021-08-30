@@ -18,6 +18,7 @@
     min-height: 449px;
     width: calc(100% / 3 - 18px);
     overflow: hidden;
+    border-radius: 6px;
 }
 
 .tours__item:last-child {
