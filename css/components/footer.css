@@ -47,7 +47,41 @@
     height: 36px;
     border-radius: 50%;
     overflow: hidden;
+    
+    
 
+}
+
+.socials__link-icon--t {
+    background: url("../../img/css_sprites.png") -10px -10px;
+}
+
+.socials__link-icon--t:hover{
+    background: url("../../img/css_sprites.png") -66px -10px;
+}
+
+.socials__link-icon--v {
+    background: url("../../img/css_sprites.png") -122px -10px;
+}
+
+.socials__link-icon--v:hover {
+    background: url("../../img/css_sprites.png") -178px -10px;
+}
+
+.socials__link-icon--f {
+    background: url("../../img/css_sprites.png") -234px -10px;
+}
+
+.socials__link-icon--f:hover {
+    background: url("../../img/css_sprites.png") -290px -10px;
+}
+
+.socials__link-icon--i {
+    background: url("../../img/css_sprites.png") -346px -10px;
+}
+
+.socials__link-icon--i:hover {
+    background: url("../../img/css_sprites.png") -402px -10px;
 }
 
 .socials__item {
