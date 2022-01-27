@@ -1,0 +1,51 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator__display {
+    margin-right: 36px;
+    vertical-align: middle;
+    
+}
+
+.paginator__list {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.paginator__item {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.paginator__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.paginator-main .paginator__link:hover {
+    color: #F5170E;
+    background: #fff;
+
+}
+
+.pager--theme--light {
+    color: #000;
+    margin-top: 61px;
+    margin-left: 37px;
+}
+
+.pager--theme--light .paginator__link:hover {
+    color: #fff;
+    background: #F5170E;
+}
+

@@ -1,0 +1,16 @@
+.wrapper {
+    overflow: hidden;
+    /* display: flex; */
+    
+    min-width: 1200px;
+    
+}
+
+.main-page-wrapper {
+    background: url(../../img/hero.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom no-repeat;
+    background-color: #001821;
+}
+
+
+
+

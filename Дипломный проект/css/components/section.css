@@ -1,0 +1,25 @@
+.section {
+    margin-bottom: 127px;
+    position: relative;
+}
+
+.section__title {
+display: inline-block;
+font-size: 36px;
+font-weight: bold;
+margin-bottom: 51px;
+margin-right: 12px;
+
+}
+
+.section_tours {
+    margin-top: -16px;
+}
+
+.section_news {
+    margin-bottom: 147px;
+}
+
+.section_about {
+    margin-bottom: 71px;
+}

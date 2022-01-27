@@ -1,0 +1,21 @@
+.header {
+    padding-top: 25px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_top-line{
+    margin-bottom: 29px;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+

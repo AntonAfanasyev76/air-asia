@@ -1,0 +1,30 @@
+.hero {
+    margin: 0 auto;
+    height: 100%;
+    
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.hero__text-section {
+    width: 50%;
+    margin-bottom: 277px;
+}
+
+.hero__title {
+    font-size:72px;
+    font-weight: bold;
+    line-height: 98px;
+    margin-bottom: 28px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
